@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #08111F;
+    font-size: 16px;
+    color: #94A3B8;
+
+    width: 900px;
+    margin: auto;
+}
+
+
+
+#nome_tit {
+    text-align: center;
+    color: #2563EB;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.imagem {
+    background-color: #2564eb3f;
+    border-radius: 30px;
+    width: 800px;
+    height: 210px;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* FOTO */
+
+.imagem img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #2563EB;
+}
+
+
+#cabecalho {
+    margin-left: 40px;
+    padding-left: 40px;
+    border-left: 2px solid #2563EB;
+}
+
+#cabecalho ul {
+    list-style: none;
+    padding: 0;
+}
+
+#cabecalho li {
+    margin: 10px 0;
+    color: #F8FAFC;
+}
+
+
+/* TÍTULOS */
+
+h3 {
+    color: #F8FAFC;
+    font-size: 24px;
+    border-bottom: 2px solid #2563EB;
+    padding-bottom: 8px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+
+
+.sobre-mim {
+    color: #94A3B8;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+
+.sobre-mim p {
+    margin-bottom: 20px;
+}
+
+strong {
+    color: #F8FAFC;
+}
+
+
+.habilidades {
+    margin-bottom: 50px;
+}
+.habilidades span {
+    display: inline-block;
+    background-color: #111D30;
+    color: #F8FAFC;
+    border: 1px solid #2563EB;
+    border-radius: 8px;
+    padding: 10px 15px;
+
+    margin-right: 8px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.hobbies {
+    margin-bottom: 50px;
+}
+
+.hobbies div {
+    display: inline-block;
+
+    background-color: #111D30;
+    color: #F8FAFC;
+
+    border-left: 3px solid #2563EB;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin-right: 10px;
+}
